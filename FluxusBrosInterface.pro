@@ -12,13 +12,23 @@ TARGET = FluxusBrosInterface
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
+SOURCES += \
     src/mainwindow.cpp \
-    src/main.cpp
+    src/main.cpp \
+    src/bank.cpp \
+    src/layer.cpp \
+    src/qsoftwaretarget.cpp \
+    src/subbank.cpp
 
 HEADERS  += \
-    src/mainwindow.h
+    src/mainwindow.h \
+    src/bank.h \
+    src/layer.h \
+    src/constants.h \
+    src/qsoftwaretarget.h \
+    src/subbank.h
 
-FORMS    += mainwindow.ui \
+FORMS    += \
     src/mainwindow.ui
+
+OTHER_FILES +=

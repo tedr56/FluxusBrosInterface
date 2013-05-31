@@ -1,14 +1,14 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent) :
+iVjServer::iVjServer(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
 }
 
-MainWindow::~MainWindow()
+iVjServer::~MainWindow()
 {
     delete ui;
 }

@@ -7,13 +7,13 @@ namespace Ui {
 class MainWindow;
 }
 
-class MainWindow : public QMainWindow
+class iVjServer : public QMainWindow
 {
     Q_OBJECT
     
 public:
-    explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
+    explicit iVjServer(QWidget *parent = 0);
+    ~iVjServer();
     
 private:
     Ui::MainWindow *ui;
